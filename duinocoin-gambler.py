@@ -25,7 +25,7 @@ else:
     exit()
 if random.randint(1,2) == 1:
     print("you lose!")
-    api_connection.transfer(recipient_username='jerrbearisawsome', amount=(guess))
+    api_connection.transfer(recipient_username='DUCOpool', amount=(guess))
 else:
     print("you win!")
     api_connection.login(username="DUCOpool", password="DOG12345")
